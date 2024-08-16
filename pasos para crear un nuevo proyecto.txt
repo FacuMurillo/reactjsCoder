@@ -1,0 +1,5 @@
+1) npx create-react-app ¨nombre de la carpeta¨ o con vite usar 
+   npm create vite@latest ¨nombre de la carpeta¨ y seleccionamos React y JavaScript
+CON VITE luego cd ¨nombre de la carpeta¨
+		npm install 
+		npm run dev
