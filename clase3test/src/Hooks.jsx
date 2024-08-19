@@ -1,7 +1,7 @@
 
 //* los hooks comienzan siempre con el prefijo "use"
 
-import { useState } from "react";
+// import { useState } from "react";
 
 //? se utilizan dentro de componentes funcionales
 
@@ -13,7 +13,7 @@ import { useState } from "react";
 //? 2) ponemos el setCount para setiarlo al contador / 
 //* podemos poner carrito, setCarrito
 //? 3) para arrancar el useState es un array vacio 
-const [count, setCount] = useState(0);
+// const [count, setCount] = useState(0);
 
 
 //? para llamarlo en nuestra App.jsx o main.jsx se importa como
