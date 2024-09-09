@@ -1,0 +1,25 @@
+.galeria{
+    display: grid;
+    grid-template-columns: 35% 35%;
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+}
+article img{
+    padding: 35px;
+    margin-bottom: 20px;
+}

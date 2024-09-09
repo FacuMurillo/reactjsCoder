@@ -41,6 +41,10 @@ header{
     background-color: rgb(185, 76, 76);
 }
 main{
-    height: 500px;
     background-color: rgb(97, 97, 155);
+}
+
+img{
+    width: 80%;
+    height: 80%;
 }
