@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"; //? importamos los hooks
 import { useParams } from "react-router-dom";  //? importamos el hook para obtener las url
 import { fetchProductDetail } from "../components/api";
 import Swal from 'sweetalert2';
-
+import "../components/ItemDetailContainer.css"
 
 
 
@@ -44,10 +44,9 @@ function ItemDetailContainer() {
     return (
         <div className="contenedorProducto">
             <h2>Detalle de Producto</h2>
-            <p>ID: {producto.id}</p>
-            <p>Nombre: {producto.nombre}</p>
-            <p>Descripción: {producto.descripcion}</p>
-            <p>Precio: ${producto.precio}</p>
+            <h3>Nombre: {producto.name}</h3>
+            <img className="imgDetail" src={producto.image} alt="" />
+            <h4>Precio: ${producto.precio}</h4>
         </div>
     );
 }

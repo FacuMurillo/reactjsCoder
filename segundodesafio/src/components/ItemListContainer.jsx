@@ -20,16 +20,20 @@ function ItemListContainer({ mensaje }) {
 
     return (
         <div>
-            <h3 className="mensajeProps animate__animated animate__jackInTheBox">
+            {/* <h3 className="mensajeProps animate__animated animate__jackInTheBox">
                 {mensaje}
-            </h3>
+            </h3> */}
             <h2>Catálogo de Productos</h2>
             <div className="catalogo"> 
             <ul className="listaProductos">
              {productos.map((producto) => (
-                <li key={producto.id}>
-                     <Link to={`/item/${producto.id}`}>{producto.name}</Link>
-                </li>
+                <div className="card">
+                    <img className="imgList" alt="" src={producto.image}/>
+                    <li key={producto.id}>
+                        <Link to={`/item/${producto.id}`}>{producto.name}</Link>
+                    </li>
+                    <h4>${producto.precio.toLocaleString("es-ES")}</h4>  
+                </div>
              ))}
             </ul>
             </div>    

@@ -1,6 +1,6 @@
 h2{
     text-align: center;
-    margin: 100px;
+    margin: 60px;
 }
 
 .listaProductos{
@@ -9,11 +9,15 @@ h2{
 
 .listaProductos a {
     text-decoration: none;
-    margin: 100px;
+    color: #F4EEE6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.listaProductos a:hover{
+    font-weight: bold;
 }
 
 .catalogo{
-    margin: 150px;
+    margin: 70px;
     display: flex;
     justify-content: center;
 }
@@ -21,4 +25,23 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    width: 300px;
+    border-radius: 40px 14px 40px 14px;
+    margin: 50px;
+    background-color: #000000;
+    color: #F4EEE6;
+}
+.imgList{
+    width: 200px;
+}
+.imgList:hover{
+    transform: scale(1.2);
+    border-radius: 4px;
 }

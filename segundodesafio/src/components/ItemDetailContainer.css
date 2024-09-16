@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedorProducto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Verdana, sans-serif;
+    background-color: rgb(0, 0, 0);
+    height: 750px;
+    color: white;
+    margin: 0;
+}
+.imgDetail{
+    width: 30%;
+    height: 450px;
+}
